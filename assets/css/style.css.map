@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,IAAI;EAEH,gBAAgB,EAAC,GAAG",
+"sources": ["../sass/partials/_cingiz.scss"],
+"names": [],
+"file": "style.css"
+}
