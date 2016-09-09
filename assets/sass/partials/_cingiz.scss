@@ -1,0 +1,226 @@
+#index{
+	// General styles
+	h1,h2,h3,h4,h5,h6{
+		margin:0;
+	}
+	.glyphicon-time{
+		background-color:#F44336;
+		border-radius:100%;
+		color:#fff;
+		font-size:13px;
+		padding:7px;
+	}
+	
+	//Custom classes
+	.sectionHeader{
+		display:block;
+	}
+	
+	//Custom styles
+	#upcoming{
+		.col-md-9{
+			.row{
+				padding:15px 0;
+				.item{
+					position:relative;
+					.itemImg{
+						width: 100%;
+						height: 100%;
+						overflow: hidden;
+						img{
+							height:100%;
+							width:100%;
+						}
+					}
+					.gradient{
+						position: absolute;
+						top:0; left:0;
+						width:100%;
+						height: 100%;
+						background: -moz-linear-gradient(bottom,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0.65) 26%, rgba(0,0,0,0) 58%, rgba(0,0,0,0) 100%);
+						background: -webkit-linear-gradient(bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.65) 26%,rgba(0,0,0,0) 58%,rgba(0,0,0,0) 100%);
+						background: linear-gradient(to top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.65) 26%,rgba(0,0,0,0) 58%,rgba(0,0,0,0) 100%);
+						filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 );
+
+					}
+					.itemContent{
+						.glyphicon-time{
+							background-color:#F44336;
+							border-radius:100%;
+							color:#fff;
+							font-size:13px;
+							padding:7px;
+						}
+						h1{
+							font-weight: bold;
+						}
+					}
+					.innerItemContent{
+						padding:15px;
+						position: absolute;
+						bottom:0; left:0;
+						h1{
+							font-size:17px;
+							color:#fff;
+						}
+						p{
+							color:#fff;
+						}
+						.deadline{
+							color:#fff;
+						}
+					}
+					.outerItemContent{
+						.deadline{
+							color:#000;
+						}
+						h1{
+							font-size:23px;
+						}
+					}
+				}
+				.bigItem{
+					height:400px;
+					.itemContent{
+						padding:25px;
+						h1{
+							font-size:30px;
+						}
+					}
+				}
+				.mediumItem{
+					height: auto;
+					.itemImg{
+						height: 180px;
+					}
+				}
+			}
+			#row2{
+				.gradient{
+					height: 180px;
+				}
+			}
+		}
+	}
+	#vacancies{
+		padding-top:50px;
+		padding:15px 0;
+		margin:0;
+		.item{
+			position:relative;
+			.itemImg{
+				width: 100%;
+				height: 100%;
+				overflow: hidden;
+				img{
+					height:100%;
+					width:100%;
+				}
+			}
+			.gradient{
+				position: absolute;
+				top:0; left:0;
+				width:100%;
+				height: 100%;
+				background: -moz-linear-gradient(bottom,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0.65) 26%, rgba(0,0,0,0) 58%, rgba(0,0,0,0) 100%);
+				background: -webkit-linear-gradient(bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.65) 26%,rgba(0,0,0,0) 58%,rgba(0,0,0,0) 100%);
+				background: linear-gradient(to top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.65) 26%,rgba(0,0,0,0) 58%,rgba(0,0,0,0) 100%);
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 );
+
+			}
+			.itemContent{
+				h1{
+					font-weight: bold;
+				}
+			}
+			.innerItemContent{
+				padding:15px;
+				position: absolute;
+				bottom:0; left:0;
+				h1{
+					font-size:17px;
+					color:#fff;
+				}
+				p{
+					color:#fff;
+				}
+				.deadline{
+					color:#fff;
+				}
+			}
+		}
+		.bigItem{
+			height:400px;
+			.itemContent{
+				padding:25px;
+				h1{
+					font-size:30px;
+				}
+			}
+		}
+		.mediumItem{
+			height: auto;
+			.itemImg{
+				height: 180px;
+			}
+		}
+		.row{ //Small items
+			padding-top:20px;
+			.smallItem{
+				.smallItemImg{
+					padding:0;
+					img{
+						width:100%;
+					}
+				}
+				.smallItemContent{
+					h1{
+						font-size:15px;
+						font-weight: bold;
+					}
+				}
+			}
+		}
+	}
+}
+@media (min-width: 768px) and (max-width: 992px) {
+	#upcoming{
+		#row1{
+			.col-md-4{
+				.mediumItem{
+					width:50%;
+					display: inline-block;
+				}
+			}
+			.bigItem{
+				margin-bottom:30px;
+			}
+		}
+	}
+	#vacancies{
+		.item {
+			padding-top:20px;
+			.smallItemContent{
+				padding-left:15px;
+			}
+		}
+	}
+}
+@media (max-width: 768px) {
+	#upcoming{
+		#row1{
+			.itemImg{
+				height: 400px;
+			}
+		}
+	}
+	#vacancies{
+		.item {
+			padding-top:20px;
+			.smallItemContent{
+				padding-left:15px;
+			}
+		}
+	}
+}
+
