@@ -1,4 +1,47 @@
-body {
-  background-color: red; }
+#author h1 {
+  font-size: 48px;
+  font-weight: 600;
+  padding-right: 20px;
+  margin: 0 0 20px 0; }
+#author .link i {
+  color: black;
+  font-size: 16px;
+  padding-left: 5px; }
+#author .border {
+  margin-top: 40px;
+  border-left: 5px solid #EEEEEE;
+  padding: 5px; }
+  #author .border span {
+    color: gray; }
+#author .archives a {
+  color: black; }
+#author .archives p {
+  margin-top: 10px; }
+#author .archives .xett {
+  width: 100%;
+  height: 1px;
+  background-color: #DDDDDD;
+  margin-top: 35px; }
+
+#contact p {
+  line-height: 22px; }
+#contact h1 {
+  font-size: 48px;
+  font-weight: 600;
+  padding-right: 20px;
+  margin: 0px 0px 20px; }
+#contact .xett {
+  width: 100%;
+  height: 1px;
+  background-color: #DDDDDD;
+  margin-top: 35px; }
+#contact .btn1 {
+  width: 105px;
+  height: 40px;
+  background-color: #93B228;
+  color: white;
+  border: none; }
+  #contact .btn1:hover {
+    background-color: #073956; }
 
 /*# sourceMappingURL=style.css.map */
