@@ -1,7 +1,7 @@
 .section-main-content{
 	
 
-
+	
 		.post{
 			margin-bottom: 30px;
 		}
@@ -48,6 +48,9 @@
 	    vertical-align: middle;
 	    transform: rotate(45deg);
 		}
+		.headline-row{
+		margin-bottom: 30px;
+		}
 		.headline-row i {
 	    color: #fff;
 	    font-style: normal;
@@ -82,17 +85,30 @@
 	    width: 100%;
 	    left: 0;
 	    position: absolute;
+		
 	}
-
+		.caticon i{
+			z-index: 3;
+			
+			position: absolute;
+			color: white;
+			padding-top: 1px;
+			padding-left:3px;
+		}
 }
 
 // Small devices (landscape phones, 544px and up)
-@media (min-width: 544px) { 
+@media (max-width: 544px) { 
 	
  }
 
 // Medium devices (tablets, 768px and up)
 @media (max-width: 768px) { 
+	img{ width:100%;}
+	.section-main-content{
+		padding-left:45px !important;
+		padding-right:45px !important;
+	}
 	.post-txt h3{
 		font-size: 24px !important;
 	} 
